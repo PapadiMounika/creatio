@@ -62,31 +62,39 @@
 
 		
 	</dependencies>
-	<build>
+    <build>
+
 		<pluginManagement>
+
 			<plugins>
+
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.14.1</version>
+					<version>3.14.0</version>
 					<configuration>
 						<source>21</source>
 						<target>21</target>
 					</configuration>
 				</plugin>
+
+
 				<plugin>
-					<!--https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.5.4</version>
+					<version>3.5.3</version>
 					<configuration>
-						<suiteXmlFiles>
-							<SuiteXmlFile>TestRunner/${TestSuite}</SuiteXmlFile>
-						</suiteXmlFiles>
+						<includes>
+							<include>TestRunner/testng.xml</include>
+						</includes>
 					</configuration>
 				</plugin>
+
 			</plugins>
+
 		</pluginManagement>
 	</build>
 
+
+	
 </project>
