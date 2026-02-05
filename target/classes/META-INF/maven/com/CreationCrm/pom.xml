@@ -60,11 +60,7 @@
 			<version>42.7.8</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org</groupId>
-			<artifactId>qa-automation</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 	<build>
 		<pluginManagement>
