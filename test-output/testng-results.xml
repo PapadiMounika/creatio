@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-03T14:18:25 IST" name="Suite" finished-at="2026-02-03T14:19:11 IST" duration-ms="46255">
+    <groups>
+    </groups>
+    <test started-at="2026-02-03T14:18:25 IST" name="Test" finished-at="2026-02-03T14:19:11 IST" duration-ms="46255">
+      <class name="com.creatio.crm.application.tests.CookiePageTests">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:24 IST" name="setupReport" finished-at="2026-02-03T14:18:25 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:25 IST" name="setUpBrowser" finished-at="2026-02-03T14:18:27 IST" duration-ms="2031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="intializeAllPages()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:27 IST" name="intializeAllPages" finished-at="2026-02-03T14:18:27 IST" depends-on-methods="com.creatio.crm.framework.Base.BasePage.setUpBrowser" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeAllPages -->
+        <test-method signature="verifyCookieTextIsValid(java.lang.String)[pri:1, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:27 IST" name="verifyCookieTextIsValid" data-provider="testData" finished-at="2026-02-03T14:18:30 IST" duration-ms="3083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the "About" tab ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookieTextIsValid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:31 IST" name="tearDown" finished-at="2026-02-03T14:18:31 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:31 IST" name="setUpBrowser" finished-at="2026-02-03T14:18:32 IST" duration-ms="824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="intializeAllPages()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:32 IST" name="intializeAllPages" finished-at="2026-02-03T14:18:32 IST" depends-on-methods="com.creatio.crm.framework.Base.BasePage.setUpBrowser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeAllPages -->
+        <test-method signature="verifyCookiePageIsDisplayed()[pri:2, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:32 IST" name="verifyCookiePageIsDisplayed" finished-at="2026-02-03T14:18:35 IST" duration-ms="3148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiePageIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:35 IST" name="tearDown" finished-at="2026-02-03T14:18:35 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:35 IST" name="setUpBrowser" finished-at="2026-02-03T14:18:36 IST" duration-ms="752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="intializeAllPages()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:36 IST" name="intializeAllPages" finished-at="2026-02-03T14:18:36 IST" depends-on-methods="com.creatio.crm.framework.Base.BasePage.setUpBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeAllPages -->
+        <test-method signature="verifyCookieSelectionButtonsDisplayed()[pri:3, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:36 IST" name="verifyCookieSelectionButtonsDisplayed" finished-at="2026-02-03T14:18:39 IST" duration-ms="3374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookieSelectionButtonsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:39 IST" name="tearDown" finished-at="2026-02-03T14:18:39 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:39 IST" name="setUpBrowser" finished-at="2026-02-03T14:18:40 IST" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="intializeAllPages()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:40 IST" name="intializeAllPages" finished-at="2026-02-03T14:18:40 IST" depends-on-methods="com.creatio.crm.framework.Base.BasePage.setUpBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeAllPages -->
+        <test-method signature="selectCookieButton()[pri:4, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:40 IST" name="selectCookieButton" finished-at="2026-02-03T14:18:43 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCookieButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:43 IST" name="tearDown" finished-at="2026-02-03T14:18:43 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:43 IST" name="setUpBrowser" finished-at="2026-02-03T14:18:44 IST" duration-ms="749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="intializeAllPages()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:44 IST" name="intializeAllPages" finished-at="2026-02-03T14:18:44 IST" depends-on-methods="com.creatio.crm.framework.Base.BasePage.setUpBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeAllPages -->
+        <test-method signature="verifySwitchButtonIsDisplayed()[pri:5, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:18:44 IST" name="verifySwitchButtonIsDisplayed" finished-at="2026-02-03T14:19:07 IST" duration-ms="22893" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2b68628496761ed1b70601385f09941b)] -> xpath: //input[@id='CybotCookiebotDialogBodyLevelButtonNecessary']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\Mounika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7097}, goog:processID: 23444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7097/devtool..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b68628496761ed1b70601385f09941b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2b68628496761ed1b70601385f09941b)] -> xpath: //input[@id='CybotCookiebotDialogBodyLevelButtonNecessary']] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\Mounika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7097}, goog:processID: 23444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7097/devtool..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b68628496761ed1b70601385f09941b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.creatio.crm.framework.webcommons.WebCommons.waitForElement(WebCommons.java:123)
+at com.creatio.crm.application.steps.CookiePageSteps.verifySwitchButtonIsDisplayed(CookiePageSteps.java:51)
+at com.creatio.crm.application.tests.CookiePageTests.verifySwitchButtonIsDisplayed(CookiePageTests.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySwitchButtonIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:19:07 IST" name="tearDown" finished-at="2026-02-03T14:19:07 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:19:07 IST" name="setUpBrowser" finished-at="2026-02-03T14:19:08 IST" duration-ms="733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="intializeAllPages()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:19:08 IST" name="intializeAllPages" finished-at="2026-02-03T14:19:08 IST" depends-on-methods="com.creatio.crm.framework.Base.BasePage.setUpBrowser" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeAllPages -->
+        <test-method signature="verifyCreatioLogoAndCookieBotLinkDisplayed()[pri:6, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:19:08 IST" name="verifyCreatioLogoAndCookieBotLinkDisplayed" finished-at="2026-02-03T14:19:11 IST" duration-ms="2995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatioLogoAndCookieBotLinkDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.creatio.crm.application.tests.CookiePageTests@24313fcc]" started-at="2026-02-03T14:19:11 IST" name="tearDown" finished-at="2026-02-03T14:19:11 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.creatio.crm.application.tests.CookiePageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
